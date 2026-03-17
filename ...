@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Screen Recorder</title>
+</head>
+<body>
+  <h1>Screen Recorder</h1>
+  <button id="startBtn">Start Recording</button>
+  <button id="stopBtn" disabled>Stop Recording</button>
+  <video id="recordedVideo" controls style="width:80%; margin-top:20px;"></video>
+
+  <script src="screenrec.js"></script>
+</body>
+</html>
